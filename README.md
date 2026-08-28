@@ -11,14 +11,14 @@ Every application that forwards user text to a model provider is an uncontrolled
 There is nothing runnable in this repository. To read the proposal:
 
 ```bash
-git clone https://github.com/Bit-Pulse-AI/prompt-shields-API.git && cd prompt-shields-API
+git clone https://github.com/Prompt-Shields/prompt-shields-API.git && cd prompt-shields-API
 $EDITOR README.md FinancialServices-Examples.md Insurance-Examples.md
 ```
 
 For a working implementation you can run today, use the Python SDK and gateway instead:
 
 ```bash
-git clone https://github.com/Bit-Pulse-AI/prompt-shields-sdk.git && cd prompt-shields-sdk && docker compose up -d
+git clone https://github.com/Prompt-Shields/prompt-shields-sdk.git && cd prompt-shields-sdk && docker compose up -d
 ```
 
 ## How would it work?
@@ -120,9 +120,9 @@ We do not monetise the code. We monetise hosting, enterprise controls, complianc
 ## Links
 
 - Documentation: [docs.promptshields.com](https://docs.promptshields.com)
-- Working implementation: [Bit-Pulse-AI/prompt-shields-sdk](https://github.com/Bit-Pulse-AI/prompt-shields-sdk) — the SDK, gateway, and collector that exist today
-- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Bit-Pulse-AI/prompt-shields-sdk/blob/main/SECURITY.md).
-- Contributing: this repository has no `CONTRIBUTING.md`. See [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Bit-Pulse-AI/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
+- Working implementation: [Prompt-Shields/prompt-shields-sdk](https://github.com/Prompt-Shields/prompt-shields-sdk) — the SDK, gateway, and collector that exist today
+- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/SECURITY.md).
+- Contributing: this repository has no `CONTRIBUTING.md`. See [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
 - Enterprise enquiries: support@promptshields.com
 
 ## Licence
