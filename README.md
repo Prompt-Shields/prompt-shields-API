@@ -1,5 +1,13 @@
 # Prompt Shields API — proposed interface
 
+> **Archived.** This repository is read-only and no longer maintained. It was
+> never implemented: no server, no published client packages, and no live
+> endpoint ever existed. It is retained as a record of the proposed interface.
+>
+> For a working implementation, use
+> **[Prompt-Shields/prompt-shields-sdk](https://github.com/Prompt-Shields/prompt-shields-sdk)**,
+> which ships the SDK, the AI gateway, and the telemetry collector.
+
 A design specification for an HTTP API that redacts sensitive data and detects prompt attacks before text reaches a third-party model. **This repository contains the specification and worked examples only. No implementation, no published client packages, and no live endpoint exist.** See [What this does not do](#what-this-does-not-do) before building against it.
 
 ## The problem
@@ -121,10 +129,10 @@ We do not monetise the code. We monetise hosting, enterprise controls, complianc
 
 - Documentation: [docs.promptshields.com](https://docs.promptshields.com)
 - Working implementation: [Prompt-Shields/prompt-shields-sdk](https://github.com/Prompt-Shields/prompt-shields-sdk) — the SDK, gateway, and collector that exist today
-- Security policy: this repository has no `SECURITY.md`. Report vulnerabilities privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/SECURITY.md).
-- Contributing: this repository has no `CONTRIBUTING.md`. See [prompt-shields-sdk/CONTRIBUTING.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/CONTRIBUTING.md) for the workflow we follow.
+- Security policy: this repository is archived and accepts no changes. Report vulnerabilities in Prompt Shields products privately to security@promptshields.com, never via a public issue. The canonical policy is [prompt-shields-sdk/SECURITY.md](https://github.com/Prompt-Shields/prompt-shields-sdk/blob/main/SECURITY.md).
+- Contributing: this repository is archived and closed to contributions. Work on [prompt-shields-sdk](https://github.com/Prompt-Shields/prompt-shields-sdk) instead.
 - Enterprise enquiries: support@promptshields.com
 
 ## Licence
 
-No `LICENSE` file is present in this repository, so no licence is granted. This should be resolved before the repository stays public.
+Apache 2.0 — see [LICENSE](LICENSE) and [NOTICE](NOTICE).
